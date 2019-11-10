@@ -3,19 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE9FCADD69D48A822E3AE33B /* Pods_aToastie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4716B8676B9FA1AFA995853 /* Pods_aToastie.framework */; };
+		E53FC34B234A2E9B008054E8 /* AdditionalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53FC34A234A2E9B008054E8 /* AdditionalInfoViewController.swift */; };
+		E53FC34D234A2EA7008054E8 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53FC34C234A2EA7008054E8 /* AdminViewController.swift */; };
+		E53FC34F234A3307008054E8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53FC34E234A3307008054E8 /* Users.swift */; };
+		E565A85D23786B53003C089A /* Client.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E565A85C23786B53003C089A /* Client.storyboard */; };
+		E565A85F23786C0D003C089A /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E565A85E23786C0D003C089A /* Admin.storyboard */; };
+		E574530923786D5B00630A20 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574530823786D5B00630A20 /* Patient.swift */; };
+		E574530E237892A800630A20 /* HomeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574530D237892A800630A20 /* HomeInfoViewController.swift */; };
 		E5EDF37B23490165005777B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF37A23490165005777B4 /* AppDelegate.swift */; };
 		E5EDF37D23490165005777B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF37C23490165005777B4 /* SceneDelegate.swift */; };
 		E5EDF37F23490165005777B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF37E23490165005777B4 /* ViewController.swift */; };
 		E5EDF38223490165005777B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EDF38023490165005777B4 /* Main.storyboard */; };
 		E5EDF38423490166005777B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EDF38323490166005777B4 /* Assets.xcassets */; };
 		E5EDF38723490166005777B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EDF38523490166005777B4 /* LaunchScreen.storyboard */; };
+		E5EDF38F234901AB005777B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5EDF38E234901AB005777B4 /* GoogleService-Info.plist */; };
+		E5EDF394234907C4005777B4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF393234907C4005777B4 /* MenuViewController.swift */; };
+		E5EDF39623490986005777B4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF39523490986005777B4 /* SignUpViewController.swift */; };
+		E5EDF39823491CBE005777B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF39723491CBE005777B4 /* LoginViewController.swift */; };
+		E5EDF39A23491EFE005777B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF39923491EFE005777B4 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67C0B08689477E95FE5C37E5 /* Pods-aToastie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aToastie.release.xcconfig"; path = "Target Support Files/Pods-aToastie/Pods-aToastie.release.xcconfig"; sourceTree = "<group>"; };
+		C4716B8676B9FA1AFA995853 /* Pods_aToastie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aToastie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF075958E5758DB1EF49FA04 /* Pods-aToastie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aToastie.debug.xcconfig"; path = "Target Support Files/Pods-aToastie/Pods-aToastie.debug.xcconfig"; sourceTree = "<group>"; };
+		E53FC34A234A2E9B008054E8 /* AdditionalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoViewController.swift; sourceTree = "<group>"; };
+		E53FC34C234A2EA7008054E8 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		E53FC34E234A3307008054E8 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E565A85C23786B53003C089A /* Client.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Client.storyboard; sourceTree = "<group>"; };
+		E565A85E23786C0D003C089A /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		E574530823786D5B00630A20 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		E574530D237892A800630A20 /* HomeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoViewController.swift; sourceTree = "<group>"; };
 		E5EDF37723490165005777B4 /* aToastie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aToastie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EDF37A23490165005777B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5EDF37C23490165005777B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,11 @@
 		E5EDF38323490166005777B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5EDF38623490166005777B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5EDF38823490166005777B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EDF38E234901AB005777B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5EDF393234907C4005777B4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E5EDF39523490986005777B4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E5EDF39723491CBE005777B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E5EDF39923491EFE005777B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9FCADD69D48A822E3AE33B /* Pods_aToastie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14CD08F9EB98A110C572BCDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4716B8676B9FA1AFA995853 /* Pods_aToastie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D52F83E9BC3F0C1A2EB93068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF075958E5758DB1EF49FA04 /* Pods-aToastie.debug.xcconfig */,
+				67C0B08689477E95FE5C37E5 /* Pods-aToastie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E574530A237890A600630A20 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				E53FC34A234A2E9B008054E8 /* AdditionalInfoViewController.swift */,
+				E574530D237892A800630A20 /* HomeInfoViewController.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		E574530B237890AB00630A20 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				E53FC34C234A2EA7008054E8 /* AdminViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		E574530C237890B300630A20 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E5EDF39523490986005777B4 /* SignUpViewController.swift */,
+				E5EDF39723491CBE005777B4 /* LoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		E5EDF36E23490165005777B4 = {
 			isa = PBXGroup;
 			children = (
 				E5EDF37923490165005777B4 /* aToastie */,
 				E5EDF37823490165005777B4 /* Products */,
+				D52F83E9BC3F0C1A2EB93068 /* Pods */,
+				14CD08F9EB98A110C572BCDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +130,49 @@
 		E5EDF37923490165005777B4 /* aToastie */ = {
 			isa = PBXGroup;
 			children = (
+				E5EDF392234903AA005777B4 /* Controllers */,
+				E5EDF391234903A5005777B4 /* Views */,
+				E5EDF390234903A0005777B4 /* Model */,
 				E5EDF37A23490165005777B4 /* AppDelegate.swift */,
 				E5EDF37C23490165005777B4 /* SceneDelegate.swift */,
-				E5EDF37E23490165005777B4 /* ViewController.swift */,
-				E5EDF38023490165005777B4 /* Main.storyboard */,
+				E5EDF38E234901AB005777B4 /* GoogleService-Info.plist */,
 				E5EDF38323490166005777B4 /* Assets.xcassets */,
-				E5EDF38523490166005777B4 /* LaunchScreen.storyboard */,
 				E5EDF38823490166005777B4 /* Info.plist */,
 			);
 			path = aToastie;
+			sourceTree = "<group>";
+		};
+		E5EDF390234903A0005777B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5EDF39923491EFE005777B4 /* User.swift */,
+				E53FC34E234A3307008054E8 /* Users.swift */,
+				E574530823786D5B00630A20 /* Patient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5EDF391234903A5005777B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5EDF38023490165005777B4 /* Main.storyboard */,
+				E5EDF38523490166005777B4 /* LaunchScreen.storyboard */,
+				E565A85C23786B53003C089A /* Client.storyboard */,
+				E565A85E23786C0D003C089A /* Admin.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5EDF392234903AA005777B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E574530C237890B300630A20 /* Auth */,
+				E574530B237890AB00630A20 /* Admin */,
+				E574530A237890A600630A20 /* Client */,
+				E5EDF37E23490165005777B4 /* ViewController.swift */,
+				E5EDF393234907C4005777B4 /* MenuViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5EDF38B23490166005777B4 /* Build configuration list for PBXNativeTarget "aToastie" */;
 			buildPhases = (
+				41B2F3E18603265A923FF3D8 /* [CP] Check Pods Manifest.lock */,
 				E5EDF37323490165005777B4 /* Sources */,
 				E5EDF37423490165005777B4 /* Frameworks */,
 				E5EDF37523490165005777B4 /* Resources */,
+				2A44E910709C150AFC4ABC8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +235,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E565A85D23786B53003C089A /* Client.storyboard in Resources */,
 				E5EDF38723490166005777B4 /* LaunchScreen.storyboard in Resources */,
+				E5EDF38F234901AB005777B4 /* GoogleService-Info.plist in Resources */,
 				E5EDF38423490166005777B4 /* Assets.xcassets in Resources */,
+				E565A85F23786C0D003C089A /* Admin.storyboard in Resources */,
 				E5EDF38223490165005777B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A44E910709C150AFC4ABC8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aToastie/Pods-aToastie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aToastie/Pods-aToastie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aToastie/Pods-aToastie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41B2F3E18603265A923FF3D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aToastie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5EDF37323490165005777B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53FC34D234A2EA7008054E8 /* AdminViewController.swift in Sources */,
+				E5EDF39823491CBE005777B4 /* LoginViewController.swift in Sources */,
+				E53FC34F234A3307008054E8 /* Users.swift in Sources */,
+				E574530E237892A800630A20 /* HomeInfoViewController.swift in Sources */,
 				E5EDF37F23490165005777B4 /* ViewController.swift in Sources */,
 				E5EDF37B23490165005777B4 /* AppDelegate.swift in Sources */,
+				E53FC34B234A2E9B008054E8 /* AdditionalInfoViewController.swift in Sources */,
 				E5EDF37D23490165005777B4 /* SceneDelegate.swift in Sources */,
+				E5EDF394234907C4005777B4 /* MenuViewController.swift in Sources */,
+				E5EDF39623490986005777B4 /* SignUpViewController.swift in Sources */,
+				E5EDF39A23491EFE005777B4 /* User.swift in Sources */,
+				E574530923786D5B00630A20 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +446,7 @@
 		};
 		E5EDF38C23490166005777B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF075958E5758DB1EF49FA04 /* Pods-aToastie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +465,7 @@
 		};
 		E5EDF38D23490166005777B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C0B08689477E95FE5C37E5 /* Pods-aToastie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

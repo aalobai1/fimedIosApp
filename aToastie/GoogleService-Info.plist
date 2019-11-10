@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1061783361507-pfd0vbspquqen9lfl3i2qtb6bmf8406m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1061783361507-pfd0vbspquqen9lfl3i2qtb6bmf8406m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAQwM1DR9NS7cvbetaONo6eK0HrSuhaNbo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1061783361507</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>harmonCoveboys.aToastie</string>
+	<key>PROJECT_ID</key>
+	<string>toasties-dc3af</string>
+	<key>STORAGE_BUCKET</key>
+	<string>toasties-dc3af.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1061783361507:ios:ad07d3687d51aa667db2d6</string>
+	<key>DATABASE_URL</key>
+	<string>https://toasties-dc3af.firebaseio.com</string>
+</dict>
+</plist>
